@@ -84,7 +84,7 @@ blockchain[[5]]
 expect_true(blockchain[[5]]$index == 5)
 # 3rd blocks data should be "this is block 3"
 expect_true(blockchain[[3]]$data == "this is block 3")
-#5th blocks previoush hash value should be equal to 4th blocks current hash.
+#5th blocks previous hash value should be equal to 4th blocks current hash.
 expect_true(blockchain[[5]]$previous_hash == blockchain[[4]]$new_hash)
 
 # Clear environment
