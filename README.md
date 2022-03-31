@@ -45,9 +45,10 @@ Unit testing is used. Testing covers index of a block, data of a block and privo
 - Run the script: "Rscript tests.R"
 ```
 
-## Install:
+## Install:
 
 To install the R package, you’d type
+
 ```
 - install()
 OR
