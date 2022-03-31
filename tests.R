@@ -1,14 +1,8 @@
-
-# Clear environment
-rm(list = ls()) 
-
-# Clear console
-cat("\014")  # ctrl+L
-
-
 # import digest library to hash the value as sha256
 library("digest")
 
+#import library to use in testing.
+library(testthat)
 
 # to use sample digest function, you can run this line:
 # digest("this is an example string" ,"sha256")
@@ -85,4 +79,13 @@ for (i in 1: num_of_blocks_to_add){
                    "\t", "Hash: ", block_to_add$new_hash)))
 }
 
-blockchain
+blockchain[[5]]
+# 5th block's index should be 5
+expect_true(blockchain[[5]]$index == 5)
+# 3rd blocks data should be "this is block 3"
+expect_true(blockchain[[3]]$data == "this is block 3")
+#5th blocks previous hash value should be equal to 4th blocks current hash.
+expect_true(blockchain[[5]]$previous_hash == blockchain[[4]]$new_hash)
+
+
+

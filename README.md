@@ -23,8 +23,12 @@ Building:
 - will be implemented.
 
 Testing:
-- will be implemented.
+Unit testing is used. Testing covers index of a block, data of a block and privous hash and current hash checking.
 
+````
+- Change current working directory to repository location.
+- Run the script: "Rscript tests.R"
+````
 Install:
 - will be updated.
 
