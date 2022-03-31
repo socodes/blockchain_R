@@ -23,6 +23,7 @@ Building:
 - will be implemented.
 
 Testing:
+
 Unit testing is used. Testing covers index of a block, data of a block and privous hash and current hash checking.
 
 ````
