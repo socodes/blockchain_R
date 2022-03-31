@@ -5,7 +5,7 @@ rm(list = ls())
 # Clear console
 cat("\014")  # ctrl+L
 
-
+library(devtools)
 # import digest library to hash the value as sha256
 library("digest")
 
@@ -86,3 +86,4 @@ for (i in 1: num_of_blocks_to_add){
 }
 
 blockchain
+build("~/Desktop/adsız klasör/blockchain_R")

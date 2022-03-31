@@ -1,0 +1,6 @@
+Package: Blockchain
+Title: Create Blockchains in R
+Description: A Package that helps to create blockchains in R
+Version: 1.0.0
+Author: Muhammed Didin (mdidinxy@gmail.com)
+License: MIT License
