@@ -46,14 +46,19 @@ Unit testing is used. Testing covers index of a block, data of a block and privo
 ```
 
 ## Install:
-
 To install the R package, you’d type
 
+from R:
 ```
 - install()
-OR
-- R CMD INSTALL PACKAGE_NAME.tar.gz
 ```
+OR
+
+from command line:
+```
+- R CMD INSTALL Blockchain_1.0.0.tar.gz
+````
+
 ## How to use:
 - Install required R language version from https://www.r-project.org
 - install required packages from command line as:
